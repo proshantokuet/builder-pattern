@@ -3,6 +3,9 @@
 ## What is builder pattern
 The builder pattern is an alternative way to construct complex objects step by step.
 
+##Where We Require Builder Pattern
+if we want to create an immutable object then builder pattern help you over multiple constructor/ telescoping constructor problem.
+
 ## Advantage of builder pattern
 1. Too Many arguments to pass from client program to the Factory class that can be error prone because most of the time, the type of arguments are same and from client side its hard to maintain the order of the argument.
 
